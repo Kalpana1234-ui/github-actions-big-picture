@@ -10,3 +10,4 @@ To follow along with the step-by-step instructions in the Essentials module, you
 
 Click Create repository from template and we’re ready to build our first Actions workflow!
 
+[![build-test-deploy](https://github.com/Kalpana1234-ui/github-actions-big-picture/actions/workflows/BTD.yml/badge.svg)](https://github.com/Kalpana1234-ui/github-actions-big-picture/actions/workflows/BTD.yml)
