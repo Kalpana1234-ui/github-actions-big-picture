@@ -1,5 +1,16 @@
 name: build-test-deploy
-on: push
+on: 
+  push:
+  workflow_dispatch:
+   inputs:
+      deploy-env:
+        description: 'Deployment environment'
+        required: false
+        default: 'production'
+      run-tests:
+        description: 'Run tests (true/false)'
+        required: false
+        default: 'true'
 jobs: 
   build:
     runs-on: ubuntu-latest
